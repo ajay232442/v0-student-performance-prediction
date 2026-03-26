@@ -12,6 +12,9 @@ import {
   ChevronLeft,
   ChevronRight,
   GraduationCap,
+  BarChart3,
+  Database,
+  FileText,
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -21,9 +24,12 @@ import { Badge } from '@/components/ui/badge'
 
 const navigation = [
   { name: 'Overview', href: '/', icon: LayoutDashboard },
+  { name: 'Analytics', href: '/analytics', icon: BarChart3 },
   { name: 'Students', href: '/students', icon: Users },
   { name: 'Risk Assessment', href: '/risk', icon: AlertTriangle, badge: 5 },
   { name: 'Interventions', href: '/interventions', icon: Lightbulb },
+  { name: 'Reports', href: '/reports', icon: FileText },
+  { name: 'Data Flow', href: '/data-flow', icon: Database },
   { name: 'Architecture', href: '/architecture', icon: GitBranch },
 ]
 
