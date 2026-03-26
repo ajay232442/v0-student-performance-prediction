@@ -15,6 +15,7 @@ import {
   BarChart3,
   Database,
   FileText,
+  Code2,
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -31,6 +32,7 @@ const navigation = [
   { name: 'Reports', href: '/reports', icon: FileText },
   { name: 'Data Flow', href: '/data-flow', icon: Database },
   { name: 'Architecture', href: '/architecture', icon: GitBranch },
+  { name: 'Developer', href: '/developer', icon: Code2 },
 ]
 
 const secondaryNavigation = [
